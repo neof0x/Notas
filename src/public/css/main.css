@@ -1,0 +1,14 @@
+body{
+    background: #1488cc;
+    background: linear-gradient(to right, #4823b7, #1488cc);
+}
+
+.logo{
+    width: 30%;
+}
+
+.borderedondeado{
+    border-radius: 10px;
+    
+
+}

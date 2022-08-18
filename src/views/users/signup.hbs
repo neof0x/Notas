@@ -1,0 +1,31 @@
+<div class="row">
+    <div class="col-md-4 mx-auto">
+        <div class="card borderedondeado">
+            <div class="card-header">
+                Account Register
+            </div>
+            <div class="card-body">
+                <form action="/users/signup" method="POST">
+                    <div class="form-grpup">
+                        <input type="text" class="borderedondeado form-control" name="name" placeholder="Name" value="{{name}}">
+                    </div>
+                    <div class="form-grpup mt-3">
+                        <input type="email" class="borderedondeado form-control" name="email" placeholder="Email" value="{{email}}">
+                    </div>
+                    <div class="form-grpup mt-3">
+                        <input type="password" class="borderedondeado form-control" name="password" placeholder="Password" value="{{password}}">
+                    </div>
+                    <div class="form-grpup mt-3">
+                        <input type="password" class="borderedondeado form-control" name="confirm_password" placeholder="Password" value="{{confirm_password}}">
+                    </div>
+                    <div class="form-group mt-3">
+                        <button type="submit" class="borderedondeado btn btn-primary btn-block mt-3">
+                            SignUp
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
